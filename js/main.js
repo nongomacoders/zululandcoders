@@ -1,7 +1,7 @@
 function submitForm() {
     var form = document.getElementById('post-form');
     var formdata = new FormData(form);
-    fetch('http://localhost/myphp/addpost.php', {
+    fetch('https://zululandcoders.co.za/addpost.php', {
             method: 'POST',
             body: formdata
         })
