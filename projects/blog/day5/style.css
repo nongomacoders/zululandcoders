@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0
+}
+
+.card {
+    border: 2px solid;
+    border-color: orange;
+    padding: 5px;
+    box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    /* 5px rounded corners */
+}
+
+div {
+    margin-bottom: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#maintitle {
+    background-color: orange;
+    font-size:3em;
+    text-align: center;
+    font-weight: bold;
+}

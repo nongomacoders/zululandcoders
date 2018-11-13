@@ -1,0 +1,16 @@
+/* this is an element selector. all ul and whats contained in it
+is changed to text color of white and background black */
+ul{
+color:white;
+background-color: black;
+}
+/* the . stands for class. all tags that have class="mygreen
+will be styled by this css rule under */
+.mygreen{color: lightgreen}
+/* the # stands for id. only one tag can have this.
+the tag that has id="maintitle will be styled by this */
+#maintitle{
+    color:pink;
+    text-align: center;
+}
+li{font-size: 130%;}
