@@ -21,7 +21,10 @@ try {
     $stmt->execute();
     echo json_encode(array("success"=>true));
 }catch(Exception $e){
+    $file = 'sqlite_errors.txt';
+    file_put_contents($file, $e, FILE_APPEND | LOCK_EX);
     echo json_encode(array("success"=>false));
+  
 }
 
 
