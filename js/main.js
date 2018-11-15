@@ -22,3 +22,19 @@ function showErrorModal(msg) {
     x.className = "show";
     setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
 }
+
+function getLessonComments(lessonName){
+    fetch('https://www.zululandcoders.co.za/getlessoncomments.php', {
+        method: 'POST',
+        body: {lesson:lessonName}
+    })
+    .then(response => response.json())
+    .then(json => {
+        console.log(json['success']);
+        if (json['success']) {
+            document.location.assign("index.php")
+        } else {
+            showErrorModal("username does not exist")
+        }
+    })
+}
