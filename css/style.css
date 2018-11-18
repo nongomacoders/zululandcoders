@@ -1,6 +1,11 @@
+a{display: inline-block;width: 100%;}
 .orange {
   color: white;
   background-color: #BF360C
+}
+.lightorange {
+  color: white;
+  background-color: rgb(247, 120, 82)
 }
 
 .purple {
