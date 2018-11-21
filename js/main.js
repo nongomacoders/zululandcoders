@@ -1,3 +1,23 @@
+function showEnglish(){
+    var elsZulu=document.getElementsByClassName("isizulu");
+    for (let index = 0; index < elsZulu.length; index++) {
+        elsZulu[index].style.display="none";        
+    }
+    var elsEnglish=document.getElementsByClassName("english");
+    for (let index = 0; index < elsEnglish.length; index++) {
+        elsEnglish[index].style.display="block";        
+    }
+}
+function showZulu(){
+    var elsZulu=document.getElementsByClassName("isizulu");
+    for (let index = 0; index < elsZulu.length; index++) {
+        elsZulu[index].style.display="block";        
+    }
+    var elsEnglish=document.getElementsByClassName("english");
+    for (let index = 0; index < elsEnglish.length; index++) {
+        elsEnglish[index].style.display="none";        
+    }
+}
 function submitForm() {
     var form = document.getElementById('post-form');
     var formdata = new FormData(form);

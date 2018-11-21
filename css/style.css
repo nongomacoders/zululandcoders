@@ -1,8 +1,16 @@
-a{display: inline-block;width: 100%;}
+.english{display: none}
+.isizulu{display: none}
+
+a {
+  display: inline-block;
+  width: 100%;
+}
+
 .orange {
   color: white;
   background-color: #BF360C
 }
+
 .lightorange {
   color: white;
   background-color: rgb(247, 120, 82)
@@ -17,8 +25,15 @@ a{display: inline-block;width: 100%;}
   color: white;
   background-color: #3E2723
 }
-body{background-color: whitesmoke}
-.card{background-color: white}
+
+body {
+  background-color: whitesmoke
+}
+
+.card {
+  background-color: white
+}
+
 #zlc {
   color: darkorange;
   background-color: black;
@@ -28,9 +43,19 @@ body{background-color: whitesmoke}
 
 
 }
-.title-big{font-size: 3rem;color:gray;}
-.title-medium{font-size: 2rem; color:gray;border-bottom: lightgray 1px}
-.pdate{
+
+.title-big {
+  font-size: 3rem;
+  color: gray;
+}
+
+.title-medium {
+  font-size: 2rem;
+  color: gray;
+  border-bottom: lightgray 1px
+}
+
+.pdate {
   color: gray;
   font-size: 0.9rem
 }
@@ -52,14 +77,30 @@ body{background-color: whitesmoke}
 }
 
 #snackbar.show {
-  visibility: visible; 
+  visibility: visible;
   animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }
+
 @keyframes fadein {
-  from {bottom: 0; opacity: 0;}
-  to {bottom: 30px; opacity: 1;}
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
 }
+
 @keyframes fadeout {
-  from {bottom: 30px; opacity: 1;}
-  to {bottom: 0; opacity: 0;}
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
 }
