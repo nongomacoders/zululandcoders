@@ -1,3 +1,8 @@
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+
 function showEnglish(){
     var elsZulu=document.getElementsByClassName("isizulu");
     for (let index = 0; index < elsZulu.length; index++) {
