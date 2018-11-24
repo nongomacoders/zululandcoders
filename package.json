@@ -1,0 +1,35 @@
+{
+  "name": "zululandcoders",
+  "version": "1.0.0",
+  "description": "A blog to help rural children code",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nongomacoders/zululandcoders.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nongomacoders/zululandcoders/issues"
+  },
+  "homepage": "https://github.com/nongomacoders/zululandcoders#readme",
+  "devDependencies": {
+    "clean-css": "^4.2.1",
+    "del": "^3.0.0",
+    "eslint": "^5.9.0",
+    "eslint-config-google": "^0.9.1",
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-terser": "^1.1.5",
+    "gulp-uglify": "^3.0.1",
+    "node-sass": "^4.10.0"
+  },
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.2"
+  }
+}
