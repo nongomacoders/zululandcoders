@@ -21,11 +21,15 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "css/main.css",
-    "revision": "3e9035782a067e39968403ff8530ebea"
+    "revision": "3a0acac3b08fdc458ec8daa5c01cd03a"
+  },
+  {
+    "url": "images/ZLC192.png",
+    "revision": "ddf1d2360979e4bfe627bbf0bf399e8a"
   },
   {
     "url": "js/main.js",
-    "revision": "0ae33d57dbf55288fd695cdba966bdc4"
+    "revision": "f55a251e656f0b92fe766ece5806660c"
   },
   {
     "url": "lessons/aw/anwriter1.png",
@@ -49,7 +53,7 @@ self.__precacheManifest = [
   },
   {
     "url": "lessons/index.html",
-    "revision": "4bb2426e1dda6f9f0094fed8a3dbc4c5"
+    "revision": "c1784f331294967aac5585390bf3a591"
   },
   {
     "url": "lessons/lesson1/L1.png",
@@ -113,7 +117,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.json",
-    "revision": "a574ac98f2387e32cec2848094fc1902"
+    "revision": "51c2c84c99523c55fe91bd0d89719686"
   },
   {
     "url": "new-post.html",
@@ -121,7 +125,7 @@ self.__precacheManifest = [
   },
   {
     "url": "students/index.html",
-    "revision": "90021fc76f6c19ac5ff11a4bd4bcfad6"
+    "revision": "04c6353199cf6b03ac5997c149108211"
   },
   {
     "url": "students/minenhle/cv.html",

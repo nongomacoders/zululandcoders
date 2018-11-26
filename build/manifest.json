@@ -3,15 +3,11 @@
     "name": "Zululand Coders",
     "icons": [
       {
-        "src": "/images/icons-192.png",
+        "src": "/images/ZLC192.png",
         "type": "image/png",
         "sizes": "192x192"
-      },
-      {
-        "src": "/images/icons-512.png",
-        "type": "image/png",
-        "sizes": "512x512"
       }
+     
     ],
     "start_url": "index.php",
     "background_color": "#3367D6",
