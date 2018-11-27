@@ -13,6 +13,9 @@
 
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
+workbox.skipWaiting();
+workbox.clientsClaim();
+
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
  * requests for URLs in the manifest.
@@ -149,7 +152,7 @@ self.__precacheManifest = [
   },
   {
     "url": "students/ncamsile/progress.html",
-    "revision": "96483b49727971113d4d511b3c67719d"
+    "revision": "9a74c7fb0e20916e24bf452ecbe3c26d"
   },
   {
     "url": "students/nokwazi/cv.html",

@@ -34,6 +34,8 @@ gulp.task('service-worker', () => {
     globPatterns: [
       '**\/*.{html,json,js,css,png}',
     ],
+    clientsClaim: true,
+    skipWaiting: true,
     swDest: 'build/sw.js',
   });
 });
