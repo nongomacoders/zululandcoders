@@ -68,7 +68,7 @@ self.__precacheManifest = [
   },
   {
     "url": "lessons/lesson1/lesson1.html",
-    "revision": "65095c3295d5ec3e5caf78b04cd2c7c6"
+    "revision": "2f5b4fe47d08c0e35c6695fe136f8a9f"
   },
   {
     "url": "lessons/lesson2/lesson2.html",
@@ -112,7 +112,7 @@ self.__precacheManifest = [
   },
   {
     "url": "lessons/setup/setup.html",
-    "revision": "acf59c89d4543ac77ce35634fca5f9ed"
+    "revision": "ee55e86ba14dfb0c1d7c4edb9351f5bd"
   },
   {
     "url": "lessons/setup/setup.png",
