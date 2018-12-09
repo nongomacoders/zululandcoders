@@ -1,5 +1,5 @@
 var postid;
-var server=`//localhost/zululandcoders/src/` //var server=`https://www.zululandcoders.co.za/`
+var server=`https://www.zululandcoders.co.za/`//var server=`//localhost/zululandcoders/src/` //
 document.addEventListener('DOMContentLoaded', function () {
 	var elems = document.querySelectorAll('.sidenav');
 	var instances = M.Sidenav.init(elems, {
