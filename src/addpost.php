@@ -9,7 +9,7 @@ $body=$_POST["body"];
 $today = date("Y-m-d H:i:s");
 
 $sql = <<<EOD
-insert into posts(username,posttitle,postbody,postdate) values(:username,:title,:body,:today)
+insert into posts(username,posttitle,postbody,postdate,posttype) values(:username,:title,:body,:today,'help')
 EOD;
 
 $stmt=$db->prepare($sql);

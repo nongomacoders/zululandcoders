@@ -31,8 +31,16 @@ self.__precacheManifest = [
     "revision": "ddf1d2360979e4bfe627bbf0bf399e8a"
   },
   {
+    "url": "index.html",
+    "revision": "bf39bc7077c6456ce2f53307637e738f"
+  },
+  {
     "url": "js/main.js",
-    "revision": "f55a251e656f0b92fe766ece5806660c"
+    "revision": "47837e6b397ef09dc20cb0081d4a99fc"
+  },
+  {
+    "url": "jsonviewer.json",
+    "revision": "36a6fb9015b647ddce89388b93636cad"
   },
   {
     "url": "lessons/aw/anwriter1.png",
@@ -112,7 +120,7 @@ self.__precacheManifest = [
   },
   {
     "url": "lessons/setup/setup.html",
-    "revision": "ee55e86ba14dfb0c1d7c4edb9351f5bd"
+    "revision": "406fa5168cd7f67d56fedd9e8cc69581"
   },
   {
     "url": "lessons/setup/setup.png",
@@ -123,8 +131,12 @@ self.__precacheManifest = [
     "revision": "51c2c84c99523c55fe91bd0d89719686"
   },
   {
+    "url": "new-comment.html",
+    "revision": "95cf6f7841b06a0a7e4d29a56fba31d4"
+  },
+  {
     "url": "new-post.html",
-    "revision": "dba3b73fd492f2d8932d467f2c69f4bc"
+    "revision": "edb4c043b2308c2453624902d45d9085"
   },
   {
     "url": "students/index.html",

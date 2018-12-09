@@ -27,14 +27,15 @@ if ('serviceWorker' in navigator) {
   <script src="./js/main.js"></script>
 </head>
 
-<body>
+<body class="grey" onload='showPosts()'>
 <nav>
-    <div class="nav-wrapper">
+    <div class="blue-grey darken-4 nav-wrapper">
       <a href="#!" class="brand-logo">ZLC</a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">        
+            
         <li> <a href="./lessons">Lessons</a></li>        
-        <li><a href="./students">Students</a>   </li>
+        <li><a href="./students">Students</a></li>
       </ul>
     </div>
   </nav>
@@ -44,13 +45,13 @@ if ('serviceWorker' in navigator) {
     <li><a href="./students">Students</a>   </li>
    
   </ul>
+  <br>
+
+  <a id="create-post" class="btn-large " style="width:100%" href="new-post.html">+ Ask/Answer A Question</a>
+
+ <div id="posts"></div>
  
-  
- 
- <?php
-  include 'getposts.php'
- ?>
- <a id="create-post" class="btn" href="new-post.html">+ Create Post</a>
+
 </body>
 
 </html>

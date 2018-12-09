@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+    <script src="./js/main.js"></script>
+    <title>New Post</title>
+</head>
+
+<body>
+    <form id="post-form" class="control">
+        <div class="field">
+            <label class="label">Username</label>
+            <div class="control">
+                <input class="input" type="text" name="username">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Title</label>
+            <div class="control">
+                <input class="input" type="text" name="title">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Body</label>
+            <div class="control">
+                <textarea class="textarea" name="body" rows="15"></textarea>
+            </div>
+        </div>         
+    </form>
+    <div class="control">
+        <button class="button " onclick="submitAddComment()" >
+            Submit
+        </button>
+    </div>
+    <div id="snackbar"></div>
+
+</body>
+
+</html>
