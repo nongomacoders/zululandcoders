@@ -1,5 +1,5 @@
 var postid;
-var server=`https://www.zululandcoders.co.za/`//var server=`//localhost/zululandcoders/src/` //
+var server=`//localhost/zululandcoders/src/` //var server=`https://www.zululandcoders.co.za/`
 document.addEventListener('DOMContentLoaded', function () {
 	var elems = document.querySelectorAll('.sidenav');
 	var instances = M.Sidenav.init(elems, {
@@ -101,8 +101,12 @@ function createPosts(obj){
           <p>${obj[index].postbody}</p>        
 	<hr>
 	<span class=" grey-text badge ">${obj[index].postdate.substr(0,10)}</span>
-         <span class=" white-text badge green " style="float:left">${obj[index].username}</span>
-         
+		 <span class=" white-text badge green " style="float:left">${obj[index].username}</span>
+		 <br>
+		 <hr>
+		 <button class='btn'>Comment</button>
+		 <button class='btn-flat'>Show</button>
+		 <button class='btn-flat'>Hide</button>
         
 		 </div>
       </div>
