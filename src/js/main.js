@@ -1,5 +1,5 @@
 var postid;
-var server=`//localhost/zululandcoders/src/` //var server=`https://www.zululandcoders.co.za/`
+ var server=`https://www.zululandcoders.co.za/`//var server=`//localhost/zululandcoders/src/`
 document.addEventListener('DOMContentLoaded', function () {
 	var elems = document.querySelectorAll('.sidenav');
 	var instances = M.Sidenav.init(elems, {
@@ -104,7 +104,7 @@ function createPosts(obj){
 		 <span class=" white-text badge green " style="float:left">${obj[index].username}</span>
 		 <br>
 		 <hr>
-		 <button class='btn'>Comment</button>
+		 <button class='btn' onclick='gotoAddComment(${obj[index].rowid})'>Comment</button>
 		 <button class='btn-flat'>Show</button>
 		 <button class='btn-flat'>Hide</button>
         
@@ -115,4 +115,9 @@ function createPosts(obj){
 	}
 		
     ElPosts.innerHTML=EL;	
+}
+
+function gotoAddComment(rowid) {
+	postid=rowid;
+	window.location.assign(`${server}new-comment.html`)
 }

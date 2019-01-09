@@ -36,7 +36,7 @@ self.__precacheManifest = [
   },
   {
     "url": "js/main.js",
-    "revision": "423cffdd8bda7436449d3324ca8401f7"
+    "revision": "c5863bfe80312249087c3b0d46c6d13a"
   },
   {
     "url": "jsonviewer.json",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
   },
   {
     "url": "lessons/index.html",
-    "revision": "c1784f331294967aac5585390bf3a591"
+    "revision": "ea3acabdf37fa609d35af8c21ae510d8"
   },
   {
     "url": "lessons/lesson1/L1.png",
@@ -76,19 +76,19 @@ self.__precacheManifest = [
   },
   {
     "url": "lessons/lesson1/lesson1.html",
-    "revision": "2f5b4fe47d08c0e35c6695fe136f8a9f"
+    "revision": "354b53a5e0e613e211ac89f8b28efe58"
   },
   {
     "url": "lessons/lesson2/lesson2.html",
-    "revision": "68c6bace694ec6037788ff2ee08f57fe"
+    "revision": "f85af9abfe89ea934deff0e9985da5af"
   },
   {
-    "url": "lessons/lesson2/mmh.png",
-    "revision": "2d00ad78b3ad207b621f2d40aaad5d2d"
+    "url": "lessons/lesson2/pics/L2.png",
+    "revision": "f3a0e03dee44fcf347024a3c4ab44c7f"
   },
   {
-    "url": "lessons/lesson2/word.png",
-    "revision": "bbda7185d4e1c93c30e28293d8157049"
+    "url": "lessons/lesson2/pics/ukhamba.png",
+    "revision": "7a93e61030c4fb6941d01b259671b0b4"
   },
   {
     "url": "lessons/setup/myfile1.png",
@@ -120,7 +120,7 @@ self.__precacheManifest = [
   },
   {
     "url": "lessons/setup/setup.html",
-    "revision": "406fa5168cd7f67d56fedd9e8cc69581"
+    "revision": "fafdce7c2be901f33b5b53e2b4c879d5"
   },
   {
     "url": "lessons/setup/setup.png",
@@ -132,7 +132,7 @@ self.__precacheManifest = [
   },
   {
     "url": "new-comment.html",
-    "revision": "95cf6f7841b06a0a7e4d29a56fba31d4"
+    "revision": "46e9caf22cabc08514ecee1af6567db2"
   },
   {
     "url": "new-post.html",

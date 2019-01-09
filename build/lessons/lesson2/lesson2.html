@@ -1,28 +1,52 @@
 <html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="../../js/main.js"></script>
+</head>
 <style>
-.word{font-size:30px;}
-.p{font-size:3.6em;}
-.instructions{font-size:20px;font-style:italic;}
+    .code {
+        border-radius: 30px;
+        background-color: gray;
+        color: #fce4ec;
+        font-size: 1rem;
+        font-style: italic;
+        margin: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 </style>
-<body>
-<div class="word">lesson2:html,body and style tags </div>
-<div>by sne and minehle</div>
-<img src="word.png" width="200px">
-<p>Today we will be discussing another type of a tag which is &lt style &gt</p>
-<p>line 1:  &lt html &gt and line 2: &lt style &gt are the examples of a opening tag </p>
-<p>line 6:  &lt/style &gt is an example of a closing tag </p>
-<p>line 3:  is an class 
-<p>line 4:  font-size it changes the size of a text</p>
-<p>line 5:  font-style it changes the slanting of the text , it can be bold or italic</p>
-<p>line 7:  This is a body tag</p>
-<p>line 8:  a class , you can give it a name, like "box" if u want it to appear as a box</p>
-<p>line 9,10,11:   this are all closing tags </p>
-<div class="instructions">copy this above format it the anwitter </div>
-<div class="paragraph"> </p>
-<p> you should get the result below</p>
-<img src="mmh.png"width="200px">
-<p>only a italic word "sanibonani" with the lime background that will appear on the screen</p>
-<p> remember whatever name u gave to ur class , it will apper on the screen</p>
+
+<body class="pink darken-1" onload="showEnglish()">
+    <h1>Images</h1>
+    <button class="btn green" onclick="showEnglish()">English</button>
+    <button class="btn " onclick="showZulu()">isiZulu</button>
+    <div class='card'>
+    <div class="card-content pink lighten-4">
+    <img src="./pics/ukhamba.png" width="100%">
+    <div class='english'>to get the image above we use the image tag on line 4 below</div>
+    <div class='isizulu'>ukuthola isithombe esingaphezulu sisebenzisa i image tag esemugqeni wesine</div>
 </div>
+</div>
+<div class='card'>
+    <div class="card-content pink lighten-3">
+    <img src="./pics/L2.png" width="100%">
+    <div class='english' ><span class='code'>src </span> is short for source,it tells us where the image is stored</div>
+    <div class='isizulu'><span class='code'>src </span> unqamulela igama elithi source,isitshela ukuth isithombe sibekwephi</div>
+    <div class='english'><span class='code'>./</span> means we must start in the current folder where we are</div>
+    <div class='isizulu'><span class='code'>./</span> uchaza ukuthi kumele siqale kule folder esikuyo</div>
+    <div class='english'><span class='code'>pics/</span> means you must go to the pics folder</div>
+    <div class='isizulu'><span class='code'>pics/</span> uchaza ukuth kumele uye kwi folder yama pics</div>
+    <div class='english'><span class='code'>ukhamba.png</span> means get this file</div>
+    <div class='isizulu'><span class='code'>ukhamba.png</span> uchaza ukuthi thola lelifayela</div>
+</div>
+</div>
+
 </body>
+
 </html>
