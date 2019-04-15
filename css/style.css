@@ -8,7 +8,7 @@ a {
 
 .orange {
   color: white;
-  background-color: #BF360C
+  background-color: #BF360C;
 }
 
 .lightorange {
@@ -18,20 +18,20 @@ a {
 
 .purple {
   color: white;
-  background-color: #6200EA
+  background-color: #6200EA;
 }
 
 .brown {
   color: white;
-  background-color: #3E2723
+  background-color: #3E2723;
 }
 
 body {
-  background-color: whitesmoke
+  background-color: whitesmoke;
 }
 
 .card {
-  background-color: white
+  background-color: white;
 }
 
 #zlc {
@@ -52,12 +52,12 @@ body {
 .title-medium {
   font-size: 2rem;
   color: gray;
-  border-bottom: lightgray 1px
+  border-bottom: lightgray 1px;
 }
 
 .pdate {
   color: gray;
-  font-size: 0.9rem
+  font-size: 0.9rem;
 }
 
 #snackbar {
